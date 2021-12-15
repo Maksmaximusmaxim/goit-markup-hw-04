@@ -286,14 +286,7 @@ line-height: 1.71;
     color: var(--color-a) ;
     
 }
-.name:hover,
-.name:focus 
-.name:active
-.name:visited
-{
-    color: var(--color-a) ;
-    color: #FFFFFF;
-}
+
 
 
 .first-page{
@@ -471,7 +464,7 @@ border-radius: 0px 0px 4px 4px;
     padding-bottom: 94px;
 }
 .knopki-portfolio{
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
 border-radius: 4px;
 }
 verhniy-box{
@@ -618,7 +611,7 @@ margin-right: 30px;
 .hfl{
     margin-top: 9px;
 }
-.ophaya-tabl:hover{
+.class-silki-na-kart-prob:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -638,7 +631,7 @@ margin-right: 30px;
 
    
 
-    border: 1px solid #AFB1B8;
+border: 1px solid #AFB1B8;
 box-sizing: border-box;
 border-radius: 4px;
 }
@@ -676,13 +669,7 @@ border-radius: 4px;
 .otstyp-nadpis{
     margin-bottom: 50px;
 }
-.stili-in-footer{
-    font-weight: 700;
-    size: 14px;
-    line-height: 1.17;
-    color: var(--color-d) ; 
-    align-items: baseline;
-}
+
 .obertka-footer-icon{
     width: 44px;
     height: 44px;
@@ -774,7 +761,7 @@ height:  92px;
     display: flex;
    
 }
-.rebenok{
+.nogi-otstypi  .rebenok + .rebenok{
     margin-left: 70px;
 }
 .otstyp-botton-ot-icon{
@@ -783,6 +770,7 @@ height:  92px;
 }
 .convert{
     margin-right: 10px;
+    fill:  #757575;
 }
 
 
@@ -794,7 +782,8 @@ height:  92px;
     fill: var(--color-a);
 }
 .obertka-footer-icon:hover , .obertka-footer-icon:focus{
-    background-color: var(--color-a);
+    background-color: #2196F3;
+    
 }
 .sami-foto-soseti-ludey{
     color:#AFB1B8 ;
@@ -825,34 +814,115 @@ height:  92px;
 
 
 .bgcolor-hero{
-    background-image: url(../img/Img.jpg);
+    background-image:  linear-gradient(  to right , rgba(47, 48, 58, 0.4) ,  rgba(47, 48, 58, 0.4)) , url(../img/Img.jpg) ; 
+    max-width: 1600px ;
+    background-position: center  ;
+}
+
+.tel{
+    fill:   #757575;
+}
+
+.pochta{
+    display: flex;
+    align-items: center;
+}
+.nomer{
+    display: flex;
+    align-items: center;
+}
+
+.tel{
+    margin-right: 10px;
 }
 
 
 
+.zagalovki{
+    font-weight: 700;
+size: 14px;
+line-height: 1.17;
+}
+.obertka-iconki-main-top{
+    margin-bottom: 30px;
+}
+.soseti-ludey-silki{
+    width: 100%;
+    height: 100%;
+}
 
+.sami-foto-soseti-ludey{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.silka-na-brend{
+    width: 170px;
+    height: 92px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.stili-in-footer{
+    font-weight: 700;
+    size: 14px;
+    line-height: 1.17;
+    color: var(--color-d) ; 
+    align-items: baseline;
+}
+.hbh{
+    align-items: baseline;
+}
+.name:hover{  color: var(--color-a) ;
+    color: #FFFFFF;}
+.name:focus {  color: var(--color-a) ;
+    color: #FFFFFF;}
+.name:active{  color: var(--color-a) ;
+    color: #FFFFFF;}
+.name:visited{  color: var(--color-a) ;
+    color: #FFFFFF;}
+.soseti-ludey-silki{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soseti-ludey-silki:hover .sami-foto-soseti-ludey{
+    fill: var(--color-d) ;
+}
+.silki-na-sami-obertka-footer-icon{
+    
+}
+.name:hover{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+.stili-in-footer{
+    font-weight: 700;
+    size: 14px ;
+    line-height: 16,41px;
+}
+.soseti-ludey-silki:hover{
+    fill: #FFFFFF;
+}
+.prisoedinis{
+    font-weight: bold;
+    
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.nogi-otstypi{
+    align-items: baseline;
+}
+.name:focus{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.silki-na-kartochki:hover{
+    
+}
+.class-silki-na-kart-prob:hover .kard{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 
 
