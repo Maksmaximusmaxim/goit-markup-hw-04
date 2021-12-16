@@ -725,14 +725,13 @@ border-radius: 4px;
 .razmer-logotipa{
     fill: #AFB1B8;
 }
-.silka-na-brend:hover .razmer-logotipa , .silka-na-brend:focus .razmer-logotipa{
+/*.silka-na-brend:hover .razmer-logotipa , .silka-na-brend:focus .razmer-logotipa{
     fill: var(--color-a);
 }
 
 .silka-na-brend:hover .brend , .silka-na-brend:focus .brend{
     border: 1px solid var(--color-a);
-}
-
+}*/
 
 .obertka-footer-icon{
     display: flex;
@@ -870,9 +869,7 @@ line-height: 1.17;
 .soseti-ludey-silki:hover .sami-foto-soseti-ludey{
     fill: var(--color-d) ;
 }
-.silki-na-sami-obertka-footer-icon{
-    
-}
+
 .name:hover{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
@@ -900,9 +897,7 @@ line-height: 1.17;
 .name:focus{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.silki-na-kartochki:hover{
-    
-}
+
 .class-silki-na-kart-prob:hover .kard{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -929,7 +924,7 @@ line-height: 1.17;
     border: solid transparent;
 }
 
-.brend{
+.icon-main-bottom{
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
@@ -941,6 +936,19 @@ line-height: 1.17;
         cursor: pointer;
 }
 
+
+.icon-main-bottom:hover{
+    border: 1px solid var(--color-a);
+    border-radius: 4px;
+}
+.icon-main-bottom:hover .razmer-logotipa{
+    fill: var(--color-a) ;
+}
+.silka-na-brend{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
 
 
 
