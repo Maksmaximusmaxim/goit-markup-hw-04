@@ -43,16 +43,16 @@
                 <li class="vmeste "> <a class="pochta " href="mailto:info@devstudio.com"><svg class="convert"  width="16"
                     height="12" ><use href="img/symbol-defs.svg#icon-header-logo-a"  ></use></svg>info@devstudio.com</a> </li>
                 <li class="vmeste "> <a class="nomer " href="tel:+380961111111"><svg class="tel" width="16"
-                    height="12"><use href="img/symbol-defs.svg#icon-header-logo-b"></use></svg>+38 096 111 11 11</a> </li>
+                    height="12"  ><use href="img/symbol-defs.svg#icon-header-logo-b"></use></svg>+38 096 111 11 11</a> </li>
             </ul>
         </div>
     </header>
     <main>
 
         <section class="section bgcolor-hero">
-            <div class="container ">
+            <div data-modal-open class="container ">
                 <h1 class="nadpis  for-center">Эффективные решения<br> для вашего бизнеса</h1>
-                <button class="knopka-hero" type="button"> Заказать услугу</button>
+                <button class="knopka-hero " type="button"> Заказать услугу</button>
             </div>
         </section>
 
@@ -109,9 +109,9 @@
             <div class="container">
                 <h2 class="for-center obnylenie">Чем мы занимаемся</h2>
                 <ul class="list  as fotki">
-                    <li class="primeri-rabot"><img src="img/l.png" alt="kartinka" width="370" /></li>
-                    <li class="primeri-rabot"><img src="img/m.png" alt="kartinka" width="370" /></li>
-                    <li class="primeri-rabot"><img src="img/n.png" alt="kartinka" width="370" /></li>
+                    <li class="primeri-rabot"><div class="foto-and-text"><img src="img/l.png" alt="kartinka" width="370" /><div class="seriy-bg"><p class="text-pod-foto">Десктопные приложения</p></div></div></li>
+                    <li class="primeri-rabot"><div class="foto-and-text"><img src="img/m.png" alt="kartinka" width="370" /><div class="seriy-bg"><p class="text-pod-foto">Мобильные приложения</p></div></div></li>
+                    <li class="primeri-rabot"><div class="foto-and-text"><img src="img/n.png" alt="kartinka" width="370" /><div class="seriy-bg"><p class="text-pod-foto">Дизайнерские решения</p></div></div></li>
                 </ul>
             </div>
 
@@ -320,13 +320,39 @@
 
 
 
-        </div>
+
       
        
     </footer>
 
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button data-modal-close class="zakrit" type="button"><svg width="11"
+            height="11" class="knopka-zakritia">
+            <use href="" ></use>
+        </svg></button>
+        
+    </div>
+</div>
+<script>
+
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector('[data-modal-open]'),
+    closeModalBtn: document.querySelector('[data-modal-close]'),
+    modal: document.querySelector('[data-modal]'),
+  };
+
+  refs.openModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalBtn.addEventListener('click', toggleModal);
+
+  function toggleModal() {
+    refs.modal.classList.toggle('is-hidden');
+  }
+})();
 
 
+</script>
 </body>
 
 </html>

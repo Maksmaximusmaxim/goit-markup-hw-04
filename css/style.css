@@ -291,9 +291,11 @@ line-height: 1.71;
 
 .first-page{
     color: var(--color-a);
+    position: relative;
 }
 .second-page{
     color: var(--color-a);
+    position: relative;
 }
 .tretya-page{
     color: var(--color-a);
@@ -949,57 +951,133 @@ line-height: 1.17;
     justify-content: center;
     align-items: center; 
 }
+.seriy-bg{
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    position: absolute;
+    bottom: 0;
+}
+.foto-and-text{
+    position: relative;
+}
+.text-pod-foto{
+    font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+color:  var(--color-d);
+text-transform: uppercase;
+text-align: center;
+justify-content: center;
+display: flex;
 
+}
 
+.backdrop{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.2);
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.modal{
+    width: 528px ;
+    height: 581px;
+    background:  var(--color-d) ;
+    position: absolute;
+   top: 50%;
+  
+   left: 50%;
+   transform: translate(-50%, -50%);
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
 
+    
+}
+.backdrop.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+}
 
+.zakrit{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
 
+.zakrit{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:  1px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 8px;
+   top: 8px;
+}
+.zakrit{
+    background-color: var(--color-d)  ;
+}
+.first-page::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #2196F3;
+border-radius: 2px;
+bottom: 0;
+right: 0;
+}
 
+.second-page::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #2196F3;
+border-radius: 2px;
+bottom: 0;
+right: 0;
+}
+.seriy-bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerstextom{
+    background: var(--color-a)  ;
+}
+.textnaportfolionakartochki{
+    color: var(--color-d) ;
+    font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+}
+.textnaportfolionakartochki{
+    width: 322px;
+    height: 168px ;
+    letter-spacing: 0.03em;
+}
+.containerstextom{
+    width:370px ;
+    height: 294px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     position: absolute;
+    top: 0;
+    right: 0;
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.kard{
+    position: relative;
+}
+.containerstextom::before{
+    transform: translate(100%);
+}
 
 
 
