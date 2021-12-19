@@ -63,6 +63,12 @@ img{
 .portfolio :active{
     color:var(--color-a);
 }
+.vse{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
 .vse :hover{
     color:var(--color-a);
 }
@@ -84,17 +90,44 @@ img{
 .fon-ludei{
     background: var(--color-d);
 }
+.pochta{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .pochta:hover{
     color:var(--color-a);
+
+}
+.nomer{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nomer:hover{
     color:var(--color-a);
 }
+.pochta3{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
 .pochta3:hover{
     color:var(--color-a);
 }
+.nomer4{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .nomer4:hover{
     color:var(--color-a);
+}
+.pochta3{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .pochta3{
 color: var(--color-b);
@@ -105,6 +138,14 @@ color: var(--color-b);
 .name{
 background: var(--color-k);
 color: var(--color-c);
+}
+.name{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .name:hover{
 background: var(--color-a);
@@ -262,7 +303,11 @@ line-height: 1.71;
 }
 
 
-
+.studias{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .studias:hover,
 .studias:focus 
 .studias:active
@@ -270,13 +315,22 @@ line-height: 1.71;
     color: var(--color-a);
 }
 
-
+.portfolio{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .portfolio:hover,
 .portfolio:focus 
 .portfolio:active
 .portfolio:visited
 {
     color:var(--color-a) ;
+}
+.kontakt{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .kontakt:hover,
 .kontakt:focus 
@@ -302,6 +356,14 @@ line-height: 1.71;
 }
 .nomer1 , .pochta1{
     color: var(--color-l);
+}
+.knopka-hero{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .knopka-hero:hover ,
 .knopka-hero:focus{
@@ -608,6 +670,11 @@ margin-right: 30px;
 .hfl{
     margin-top: 9px;
 }
+.class-silki-na-kart-prob{
+    transition-property: box-shadow  ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .class-silki-na-kart-prob:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -727,13 +794,7 @@ border-radius: 4px;
 .razmer-logotipa{
     fill: #AFB1B8;
 }
-/*.silka-na-brend:hover .razmer-logotipa , .silka-na-brend:focus .razmer-logotipa{
-    fill: var(--color-a);
-}
 
-.silka-na-brend:hover .brend , .silka-na-brend:focus .brend{
-    border: 1px solid var(--color-a);
-}*/
 
 .obertka-footer-icon{
     display: flex;
@@ -756,7 +817,11 @@ border-radius: 4px;
     margin-right: 10px;
     fill:  #757575;
 }
-
+.convert{
+    transition-property: fill ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .pochta:hover .convert , .pochta:focus .convert{
     fill: var(--color-a);
@@ -764,6 +829,12 @@ border-radius: 4px;
 }
 .nomer:hover .tel{
     fill: var(--color-a);
+    transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+.obertka-footer-icon{
+    transition-property: background ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .obertka-footer-icon:hover , .obertka-footer-icon:focus{
     background-color: #2196F3;
@@ -771,6 +842,11 @@ border-radius: 4px;
 }
 .sami-foto-soseti-ludey{
     color:#AFB1B8 ;
+}
+.soseti-ludey-obolochka{
+    transition-property: background ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soseti-ludey-obolochka:hover , .soseti-ludey-obolochka:focus{
     background: var(--color-a);
@@ -789,7 +865,16 @@ border-radius: 4px;
 .sami-foto-soseti-ludey{
     fill: #AFB1B8;
 }
-
+.sami-foto-soseti-ludey{
+    transition-property: fill ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sami-foto-soseti-ludey{
+    transition-property: fill ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .sami-foto-soseti-ludey:hover{
     fill: var(--color-d) ;
 }
@@ -854,6 +939,11 @@ line-height: 1.17;
 }
 .hbh{
     align-items: baseline;
+}
+.name{
+    transition-property: color ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .name:hover{  color: var(--color-a) ;
     color: #FFFFFF;}
@@ -942,6 +1032,11 @@ line-height: 1.17;
 .icon-main-bottom:hover{
     border: 1px solid var(--color-a);
     border-radius: 4px;
+}
+.razmer-logotipa{
+    transition-property: fill ;
+    transition-duration: 250ms ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-main-bottom:hover .razmer-logotipa{
     fill: var(--color-a) ;
@@ -1078,10 +1173,22 @@ line-height: 28px;
 .containerstextom::before{
     transform: translate(100%);
 }
+.knopka-zakritia{
+    fill: #000000;
+    
+}
+.containerstextom{
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+.class-silki-na-kart-prob:hover .containerstextom{
+    transform: translate(0%);
+}
 
-
-
-
+.overflo{
+    position: relative;
+    overflow: hidden;
+}
 
 
 
